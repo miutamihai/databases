@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  maria:
+    image: "mariadb"
+    ports:
+      - '3306:3306'
+    environment:
+      MARIADB_ROOT_PASSWORD: "ezcommit" 
